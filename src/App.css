@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+    font-family: Avenir;
+    background-color: #F9FAFF;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: Avenir;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+.app-wrapper {
+    text-align: left;
+    margin: 120px;
+    width: 45%;
+    padding: 70px 0
   }
+
+.btn-answer {
+    border: none;
+    margin: 10px 5px;
+    padding: 18px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Avenir;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-answer:focus {
+    background-color: #672BC2;
+    outline:0;
+    color:white
+}
+.btn {
+    background-color: #672BC2;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px 5px;
+    font-size: 16px;
+    padding: 18px;
+    border: none;
+    width: 100px;
+    font-family: Avenir;
+}
+.btn:hover {
+    background-color: white;
+    outline: 0;
+    color: black;
+    border: 2px solid #672BC2;
+}
+
+.error {
+    color: #672BC2;
+    font-size: 22px;
+}
+
+
+.container-submission{
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
