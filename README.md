@@ -1,6 +1,6 @@
 # COVID-19 Screening Questionnaire
 
-Sample Quiz App using React Hooks (useReducer() + useContext())
+Quiz App using React Hooks (useReducer() + useContext())
 
 ## Live Link:
 TBD
